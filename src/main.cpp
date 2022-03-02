@@ -341,6 +341,7 @@ void loop()
       }
 
       sendMacroKey(macro);
+      delay(100);
     }
 
     if( M5.BtnA.wasPressed() ){
